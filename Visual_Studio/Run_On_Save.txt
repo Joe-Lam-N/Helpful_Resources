@@ -1,0 +1,28 @@
+Author Block:
+	" Run on save is a extention that can help make a sandbox. A sandbox is an envierment of code where you can quarantine small pieces of code to test and run."
+
+
+
+Run On Save by Emeraldwalk;
+
+How to use:
+	" Install extenstion
+	  Open settings.json
+	  Copy and edit Settings.json down below as needed.
+	  Open Output and go to RUN ON SAVE.
+	  Now your code will run everything you save. Will be more helpful to turn on auto save.
+	"
+
+Extenstion settings.json:
+	"{
+	    "emeraldwalk.runonsave": {
+	        "autoClearConsole": true, 
+	        "commands": [
+	            {
+	                "match": "\\.c",
+	                "isAsync": true,
+	                "cmd": "cd ${fileDirname} && cd .. && make && make run"
+	            }
+	        ]
+	    }   
+	}"

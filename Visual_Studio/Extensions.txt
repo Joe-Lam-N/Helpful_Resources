@@ -1,0 +1,11 @@
+Author Block:
+	"Useful extension to always have for Visual Studio."
+
+
+
+Background by shalldie:
+	"Will change the background of your edtior to make it a bit more like home."
+Vscode-Icons by VSCode Icons Team:
+	"Make your file explorer inside visual studio a bit more viewable."
+Prettier - Code formattere by Prettier:
+	"Will make your code inside visual studio a bit more readable."
